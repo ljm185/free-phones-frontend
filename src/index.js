@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const videoCode = foundFreePhone.url.slice(32);
             document.querySelector("iframe").src = "https://www.youtube.com/embed/" + videoCode + "?autoplay=1"
             // debugger
+            document.querySelector("title").innerText = "EPIC FAIL!"
         }
     });
 });
