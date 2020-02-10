@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // debugger
         // console.log(event.target);
         if (event.target.tagName === "LI") {
-            console.log("lolnope nice try")
+            console.log("lolnope nice try");
             // debugger
             // console.log(event.target.innerText);
-            const foundFreePhone = freePhones.find(freePhone => freePhone.id === parseInt(event.target.id))
+            const foundFreePhone = freePhones.find(freePhone => freePhone.id === parseInt(event.target.id));
             let lastListItem = freePhoneList.lastElementChild;
             while (lastListItem) {
               freePhoneList.removeChild(lastListItem);
