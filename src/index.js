@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             freePhoneVideo.innerHTML = `<iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
             const videoCode = foundFreePhone.url.slice(32);
-            document.querySelector("iframe").src = "https://www.youtube.com/embed/" + videoCode + "?autoplay=1"
+            document.querySelector("iframe").src = "https://www.youtube.com/embed/" + videoCode + "?autoplay=1";
             // debugger
-            document.querySelector("title").innerText = "EPIC FAIL!"
+            document.querySelector("title").innerText = "EPIC FAIL!";
         }
     });
 });
